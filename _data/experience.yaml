@@ -1,0 +1,40 @@
+experiences:
+- place: "Northeastern University"
+  time: "2021/9 - 2023/12"
+  title: "Master of Computer Science"
+  subtitle: "TA in algorithms to pay for my 🎾 lessons"
+  category: "School"
+
+- place: "Google"
+  time: "Fall 2022"
+  title: "Software Engineering Intern @ Ads Mobile Team"
+  subtitle: "Metaverse Ads | Java, Lua, GCP"
+  category: "Internship"
+
+- place: "Meta(Facebook)"
+  time: "Summer 2022"
+  title: "Software Engineering Intern @ Ads Infra Team"
+  subtitle: "Internal Tools for Efficiency | Python, C++"
+  category: "Internship"
+
+- place: "Zhejiang University"
+  time: "2017 - 2021"
+  title: "Bachelor of Computer Science"
+  subtitle: "Minor in Business Management (CKC ITP)"
+  category: "School"
+  # pic: "/assets/profile-pics/ayan_zju.jpg"
+
+- place: "Microsoft Research Asia"
+  time: "Winter 2020 & Spring 2021"
+  title: "Research Intern"
+  subtitle: "AutoML toolkit, NNI | Python, Javascript"
+  category: "Internship"
+
+- place: "Akuna Capital"
+  time: "Summer 2020"
+  title: "C++ Developer Intern @ Gateway Team"
+  subtitle: "High-frequency low-latency trading engine | C++, Python💰_💰"
+  category: "Internship"
+
+
+
