@@ -1,13 +1,14 @@
-# Martin Saveski's Website
+# Ayan Mao's Website
 
 ## Updates guide
-Change one of the files in `_data`, unless you are changing the look of the website.
+Step 1: Change one of the files in `_data`, unless you are changing the look of the website.
 
-Test changes with:
+Step 2: Test changes with:
 ```
 jekyll serve
 ```
-
+Step 3: Deploy to your github.io 
+OR
 Push to the ML web directory:
 ```
 rm -rf public_html
@@ -16,7 +17,6 @@ mkdir public_html
 ```
 ./__deploy.sh
 ```
-
 More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
 
 **Stanford links**
@@ -34,3 +34,6 @@ More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPageP
   - Icons: [Font Awesome](http://fontawesome.io/)
 - JS
   - [Jquery (3.1.1)](https://jquery.com/)
+
+## thanks
+based on Martin Saveski's [template](https://github.com/msaveski/www_personal), thank you!
