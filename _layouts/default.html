@@ -6,13 +6,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Martin Saveski">
-  <meta name="author" content="Martin Saveski">
-  <meta property="og:title" content="Martin Saveski" />
+  <meta name="description" content="Ayan Mao">
+  <meta name="author" content="Ayan Mao">
+  <meta property="og:title" content="Ayan Mao" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.martinsaveski.com" />
-  <meta property="og:site_name" content="Martin Saveski" />
-  <link rel="canonical" href="http://www.martinsaveski.com" />
+  <meta property="og:url" content="http://98may.github.io" />
+  <meta property="og:site_name" content="Ayan Mao" />
+  <link rel="canonical" href="http://98may.github.io" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -111,10 +111,11 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Internships</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Life</a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Internships</a></li> -->
+          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Life</a></li> -->
           <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>resume</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>news</a></li>
         </ul>
       </div>
     </nav>
@@ -123,13 +124,13 @@
 
     <div class="footer">
       <div class="row">
-        <div class="four columns">
-          {{ site.data.main_info.name }}
+        <div class="three columns">
+            <span style="font-weight: normal">{{ site.data.main_info.name }}</span>
         </div>
-        <div class="four columns">
-          {{ site.data.main_info.email }}
+        <div class="six columns">
+            <span style="font-weight: normal">based on the template by <a href="http://web.media.mit.edu/~msaveski">Martin Saveski</a></span>
         </div>
-        <div class="four columns">
+        <div class="three columns">
           <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </span>

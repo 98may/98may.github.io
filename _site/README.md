@@ -9,7 +9,7 @@ jekyll serve
 ```
 Step 3: Deploy to your github.io 
 OR
-Push to the ML web directory:
+Push to the ML web directory like the template's author did:
 ```
 rm -rf public_html
 mkdir public_html
@@ -17,13 +17,6 @@ mkdir public_html
 ```
 ./__deploy.sh
 ```
-More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
-
-**Stanford links**
-- Use fetch!
-- [Basic WWW for Individual Users](https://uit.stanford.edu/service/web/centralhosting/howto_user)
-- [AFS File Transfer](https://uit.stanford.edu/service/afs/file-transfer/macintosh)
-
 
 ## External Libraries
 - Framework: [Jekyll](http://jekyllrb.com/)
@@ -36,4 +29,4 @@ More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPageP
   - [Jquery (3.1.1)](https://jquery.com/)
 
 ## thanks
-based on Martin Saveski's [template](https://github.com/msaveski/www_personal), thank you!
+based on Martin Saveski's [template](https://github.com/msaveski/www_personal)
